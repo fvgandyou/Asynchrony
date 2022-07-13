@@ -4,6 +4,7 @@
   "description": "Working with asynchronism in JS",
   "main": "src/index.js",
   "scripts": {
+    "deploy": "gh-pages -d project_async/src",
     "callback": "node src/callbacks/index.js",
     "callback:challenge": "node src/callbacks/challenge.js",
     "promise": "node src/promises/index.js",
@@ -22,5 +23,8 @@
     "node-fetch": "^3.2.6",
     "xmlhttprequest": "^1.8.0"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
