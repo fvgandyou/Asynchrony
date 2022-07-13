@@ -1,0 +1,26 @@
+{
+  "name": "asynchronism",
+  "version": "1.0.0",
+  "description": "Working with asynchronism in JS",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callbacks/index.js",
+    "callback:challenge": "node src/callbacks/challenge.js",
+    "promise": "node src/promises/index.js",
+    "promise:challenge": "node src/promises/challenge.js",
+    "async": "node src/async/index.js",
+    "async:challenge": "node src/async/challenge.js"
+  },
+  "keywords": [
+    "promises",
+    "call_backs",
+    "async_await"
+  ],
+  "author": "Ferney Velasco Garzon",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.2.6",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "type": "module"
+}
